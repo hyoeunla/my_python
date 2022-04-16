@@ -54,6 +54,7 @@ hour = 10
 pay = 10000
 
 print("alba name :", alba_name)
-print("hour : ", hour)
+print("hour :", hour)
 print("pay :", pay)
 print("나펭수님의 총 금액은", hour * pay, "원 입니다")
+print("수고 많으셨습니다.^^")
