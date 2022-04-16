@@ -36,3 +36,24 @@ print('물건가격 :', price, '원')
 print('구매개수 :', buy, '개')
 print('지불금액 :', price, '원')
 print('거스름돈 :', change, '원')
+
+
+'''
+사용자로부터 아르바이트생의 이름, 근무시간, 시간당 임금을 입력받는다.
+변수명 : 이름(name), 시간(hour), 임금(pay)
+
+실행결과
+alba name : 나펭수
+hour : 10
+pay : 10000
+나펭수님의 총 금액은 100000원 입니다.
+수고 많으셨습니다.^^
+'''
+alba_name = "나펭수"
+hour = 10
+pay = 10000
+
+print("alba name :", alba_name)
+print("hour : ", hour)
+print("pay :", pay)
+print("나펭수님의 총 금액은", hour * pay, "원 입니다")
